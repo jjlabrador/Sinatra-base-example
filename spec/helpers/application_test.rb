@@ -1,5 +1,5 @@
 #encoding: utf-8
-require 'spec/rspec_helper'
+require_relative '../rspec_helper'
 
 describe "My helpers" do
   

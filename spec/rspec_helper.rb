@@ -9,7 +9,7 @@ RSpec.configure do |conf|
   conf.include MyHelpers
   conf.color_enabled = true
   conf.formatter = :documentation   # default: progress
-  conf.order = "random"
+  #conf.order = "random"
 end
 
 Capybara.app = eval "Rack::Builder.new {( " + File.read(File.dirname(__FILE__) + '/../lib/config.ru') + "\n )}"
